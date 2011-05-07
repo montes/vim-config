@@ -1,9 +1,9 @@
 set nocompatible "dont want to be compatible with vi
 
-""runtime! /home/montes/.vim/autoload/*.vim
 set runtimepath=~/.vim,~/.vim/syntax,~/.vim/autoload
-""set runtimepath=~/vim,~/.vim/syntax
-""source ~/.vim/syntax/synload.vim
+""runtime! /home/montes/.vim/autoload/*.vim
+source ~/.vim/autoload/colorizer.vim
+source ~/.vim/autoload/javascriptcomplete.vim
 
 set tabstop=4
 set softtabstop=4
@@ -19,14 +19,8 @@ set antialias
 syntax on
 filetype on
 filetype plugin on
-""filetype indent off " i hate indent!!!
+filetype indent on 
 
 colorscheme delek
-
-"Set color highlightning if supported by terminal
-if &t_Co > 2 || has("gui_running")
-   syntax on
-   set hlsearch
-endif
 
 let g:colorizer_filetype = 'css,html' "converts #AAA or #a1a1a1 to equivalent color (plugin)
