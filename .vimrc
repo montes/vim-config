@@ -8,6 +8,7 @@ source ~/.vim/autoload/javascriptcomplete.vim
 set tabstop=4
 set softtabstop=4
 set expandtab
+set autoindent
 set hidden "optimizes buffers
 set history=1000 "remind 1000 last commands
 set wildmenu "shows all posibilities when pressing TAB in command mode
