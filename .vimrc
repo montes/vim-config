@@ -4,6 +4,7 @@ set runtimepath=~/.vim,~/.vim/syntax,~/.vim/autoload
 ""runtime! /home/montes/.vim/autoload/*.vim
 source ~/.vim/autoload/colorizer.vim
 source ~/.vim/autoload/javascriptcomplete.vim
+source ~/.vim/autoload/phpcs.vim
 
 set tabstop=4
 set softtabstop=4
