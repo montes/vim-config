@@ -5,6 +5,13 @@ set runtimepath=~/.vim,~/.vim/syntax,~/.vim/autoload
 source ~/.vim/autoload/colorizer.vim
 source ~/.vim/autoload/javascriptcomplete.vim
 source ~/.vim/autoload/phpcs.vim
+source ~/.vim/autoload/php-doc.vim "PHPDocumentor
+source ~/.vim/checksyntax-plugin.vim 
+source ~/.vim/autoload/checksyntax.vim "Checks syntax while saving document (PHP, c, cpp...)
+
+set formatoptions+=or "Para el autoindent de los comentarios de PHP de varias lineas /**
+
+set fileencodings=utf-8
 
 set tabstop=4
 set softtabstop=4
