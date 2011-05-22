@@ -23,7 +23,7 @@ hi Directory term=bold ctermfg=DarkBlue guifg=Blue
 hi LineNr term=underline ctermfg=Brown guifg=Brown
 hi MoreMsg term=bold ctermfg=DarkGreen gui=bold guifg=SeaGreen
 hi Question term=standout ctermfg=DarkGreen gui=bold guifg=SeaGreen
-hi Search term=reverse ctermbg=Yellow ctermfg=NONE guibg=Yellow guifg=NONE
+hi Search term=reverse ctermbg=DarkGreen ctermfg=Black guibg=DarkGreen guifg=NONE "locations list
 hi SpecialKey term=bold ctermfg=DarkBlue guifg=Blue
 hi Title term=bold ctermfg=DarkMagenta gui=bold guifg=Magenta
 hi WarningMsg term=standout ctermfg=DarkRed guifg=Red
