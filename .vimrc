@@ -8,6 +8,7 @@ source ~/.vim/autoload/phpcs.vim
 source ~/.vim/autoload/php-doc.vim "PHPDocumentor
 source ~/.vim/checksyntax-plugin.vim 
 source ~/.vim/autoload/checksyntax.vim "Checks syntax while saving document (PHP, c, cpp...)
+source ~/.vim/autoload/phpcomplete.vim "PHP Autocomplete (CTRL+X CTRL+O)
 
 set formatoptions+=or "Para el autoindent de los comentarios de PHP de varias lineas /**
 
@@ -26,9 +27,13 @@ set backspace=indent,eol,start
 set nu "line numbering
 set antialias
 syntax on
-filetype on
 filetype plugin on
 filetype indent on 
+autocmd FileType php set omnifunc=phpcomplete#CompletePHP "PHP Autocomplete
+set ofu=syntaxcomplete#Complete
+
+let php_sql_query=1
+let php_htmlInStrings=1
 
 colorscheme delek
 
